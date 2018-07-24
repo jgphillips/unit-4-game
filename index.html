@@ -3,12 +3,41 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Crystals Collector! The Game!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <script src="./assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+    <h1>CrystalsCollector</h1>
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-8">
+                    <div id="gameDescription"></div>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-4">
+                    <div id="totalPoints"></div>
+                    <div id="gameScore"></div>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-6">
+                    <button id="redGem"></button>
+                    <button id="blueGem"></button>
+                    <button id="yellowGem"></button>
+                    <button id="greenGem"></button>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-4">Your total score is:</p>
+                    <div id="totalScore"></div>
+                </div>
+        </div>
+    </div>
     
 </body>
 </html>
