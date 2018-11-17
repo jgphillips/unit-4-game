@@ -1,3 +1,5 @@
+Basic game that using buttons with pictures of crystals having different values. Clicking on a crystal you will add specific amount of points to your total score. You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. 
+
 # jQuery Assignment
 
 ### Overview
