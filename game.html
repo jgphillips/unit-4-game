@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div>   
+        <h1>Hi. I'm Putin.</h1>
+        <button id="putin" class="player">PUTIN</button>
+    </div>
+    <div>   
+            <h1>Hi. I'm Angela.</h1>
+            <button id="angela" class="player">Angela</button>
+        </div>
+    <script>
+
+        var player1mode = true;
+
+        $(".player").on("click", function () {
+            var id = $(this).attr('id');
+
+            if (player1mode) {
+                // we're setting player 1
+                console.log("Player 1 is " + id);
+                player1mode = false;
+
+            } else {
+                // we're setting player 2
+                console.log("Player 2 is " + id);
+            }
+        });
+    </script>
+</body>
+
+</html>
